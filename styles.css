@@ -15,8 +15,13 @@ body {
     background-color: beige;
 }
 img {
-    width: 100%;
+    display: block;
+    width: 70%;
     height: auto;
+    margin: auto;
+    border-style: dashed;
+    border-width: 0.375rem;
+
 }
 h1 {
     width: 100%;
@@ -35,8 +40,10 @@ li:focus {
 }
 
 div.centre {
-    margin: 5% 20% 0% 20%;
-    padding: 1rem 1rem 7rem 1rem;
+    margin: 5% 15% 0% 15%;
+    padding: 1rem 5rem 7rem 5rem;
     background-color: rgb(132, 255, 61);
     color: black;
+    box-shadow: 0.5rem 0.5rem black;
+    border-radius: 0.5rem;
 }
