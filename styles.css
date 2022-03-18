@@ -3,6 +3,7 @@ body {
     background-color: rgb(74, 223, 198);
     color: black;
     font-family: "Hind";
+    font-size: xx-large;
 }
 * {
     transition: 0.5s;
@@ -22,15 +23,14 @@ h1 {
     text-align: center;
 }
 
-ul *:hover {
+li:hover {
     color: rgb(100, 172, 231);
     font-size: 150%;
 }
 ul a {
-    font-size: 20px;
     text-decoration: none;
 }
-li>*:focus {
+li:focus {
     color: yellowgreen;
 }
 
