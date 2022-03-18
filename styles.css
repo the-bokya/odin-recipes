@@ -16,7 +16,7 @@ body {
 }
 img {
     display: block;
-    width: 70%;
+    width: 100%;
     height: auto;
     margin: auto;
     border-style: dashed;
